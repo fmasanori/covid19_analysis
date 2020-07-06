@@ -1,10 +1,10 @@
-# Análise das 10 cidades de SP com maior número de mortos por COVID-19 e suas respectivas rendas
+# Análise das 10 cidades de SP com maior número de mortes por COVID-19 e suas respectivas rendas
 
 ## Objetivo
-Em meio a pandemia que estamos vivendo (2020), foi verificada a necessidade de levantar as 10 cidades de SP com maior número de mortos por COVID-19 para relacionar com a renda média da população, assim como o PIB percapita. Desta forma, pode-se anailisar os dados e verificar se existe aluguma relação entre eles. 
+Em meio a pandemia que estamos vivendo (2020), foi verificada a necessidade de levantar as 10 cidades de SP com maior número de mortes por COVID-19 para relacionar com a renda média da população, assim como o PIB per capita. Desta forma, pode-se analisar os dados e verificar se existe aluguma relação entre eles. 
 
 ## Resultado
-As 10 cidades de SP com maior número de mortos por COVID-19 são (maior para menor):
+As 10 cidades de SP com maior número de mortes por COVID-19 são (maior para menor):
 * 01 Carapicuíba; 
 * 02 Guarujá;
 * 03 Jundiaí;
@@ -16,7 +16,7 @@ As 10 cidades de SP com maior número de mortos por COVID-19 são (maior para me
 * 09 Osasco;
 * 10 Santos.
 
-É possível notar que existe uma relação entre as cidades com maior número de mortos e o seu respectivo PIB percapita. A seguir é apresentada a ordem do PIB (do menor para o maior) juntamente com a posição das cidades em relação ao número de mortes:
+É possível notar que existe relação entre as cidades com maior número de mortes e o seu respectivo PIB per capita. A seguir são apresentadas as cidades com menores PIBs (do menor para o maior) juntamente com a posição das cidades em relação ao número de mortes:
 * 05 São Vicente; 
 * 01 Carapicuíba; 
 * 02 Guarujá;
@@ -28,7 +28,7 @@ As 10 cidades de SP com maior número de mortos por COVID-19 são (maior para me
 * 03 Jundiaí;
 * 10 Santos.
 
-Assim com o salário médio dessas cidades (do menor para o maior):
+Assim com os salários médios dessas cidades (do menor para o maior):
 * 01 Carapicuíba; 
 * 05 São Vicente; 
 * 02 Guarujá;
@@ -45,7 +45,7 @@ Assim com o salário médio dessas cidades (do menor para o maior):
 ## Tecnologias
 * Folium;
 * Jinja;
-* Matplotlib; 
+* Matplot Lib; 
 * Numpy;
 * Pandas;
 * Python.
@@ -55,7 +55,9 @@ Assim com o salário médio dessas cidades (do menor para o maior):
 * <a href="https://jupyter.org/install">Jupyter Notebook</a>
 
 ## Instalação
-* Clone este repositório a partir do comando abaixo:
+Abra seu prompt de comando e execute os seguintes comandos:
+
+* Clone este repositório:
 <pre>git clone https://github.com/MarcioOrdonez/covid19_analysis</pre>
 
 * Após clonar, entre na pasta do repositório:
@@ -67,10 +69,10 @@ Assim com o salário médio dessas cidades (do menor para o maior):
 * Rode o projeto:
 <pre>jupyter notebook</pre>
 
-* É aberto uma aba no seu navegador com alguns arquivos. Clique para abrir o seguinte:
+* Será aberta uma aba no seu navegador com alguns arquivos. Clique para abrir:
 <pre>Covid_19_analysis.ipynb</pre>
 
-* A partir disso, é possível verificar os 3 gráficos gerados com as respectivas informações.
+A partir disso, é possível verificar os 3 gráficos gerados com as respectivas informações.
 
 # Referência
 Os dados utilizados foram tirados das fontes abaixo:
